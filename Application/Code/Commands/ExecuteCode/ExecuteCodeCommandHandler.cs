@@ -18,8 +18,6 @@ namespace CodeExecuter.Application.Code.Commands.ExecuteCode
         {
             try
             {
-
-
                 await ValidateCommand(command);
                 var result = await CSharpScript.EvaluateAsync(command.Code);
                 return new ExecuteCodeOutput()

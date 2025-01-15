@@ -4,5 +4,6 @@
     {
         public int Id { get; set; }
         public string CodeText { get; set; }
+        public string Result { get; set; }
     }
 }
